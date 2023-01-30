@@ -1,0 +1,112 @@
+/* Start Variables */
+
+/* End Variables */
+/* Start Global Rules */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Outfit', sans-serif;
+}
+/* End Global Rules */
+main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(217, 54%, 11%);
+}
+.container {
+    background-color: hsl(216, 50%, 16%);
+    width: 320px;
+    padding: 20px;
+    border-radius: 20px;
+}
+.imag-card{
+    width: 280px;
+    position: relative;
+}
+img.card{
+    width: 100%;
+    border-radius: 10px;
+}
+.icon-view{
+    display: none;
+    position: absolute;
+    top: 40%;
+    left: 42%;
+}
+a.card:hover .icon-view{
+    display: inline;
+}
+a.card:hover img.card{
+    filter: saturate(4) opacity(50%);
+}
+.title:hover{
+    color: hsl(178, 100%, 50%);
+}
+.title{
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 600;
+    color: hsl(0, 0%, 100%);
+}
+.description{
+    color: hsl(215, 51%, 70%);
+    line-height: 1.4;
+    font-weight: 400;
+    font-size: 18px;
+}
+p+p{
+    display: flex;
+    justify-content: space-between;
+}
+.price{
+    color: hsl(178, 100%, 50%);
+    font-size: 0.9em;
+    font-weight: 500;
+}
+.price svg{
+    position: relative;
+    top: 4px;
+    margin-right: 4px;
+}
+.time{
+    color: hsl(215, 51%, 70%);
+    font-size: 0.9em;
+    font-weight: 500;
+}
+.time svg{
+    position: relative;
+    top: 4px;
+    margin-right: 4px;
+}
+hr{
+    border: 0px;
+    border-radius: 5px;
+    height: 1.5px;
+    background: hsla(217, 51%, 70%, 0.2);
+}
+div.avatar{
+    display: inline;
+}
+img.avatar{
+    border:solid 2px  hsl(0, 0%, 100%);
+    border-radius: 50%;
+    width: 11%;
+    vertical-align: middle;
+}
+.name{
+    color:  hsl(215, 51%, 70%);
+    font-size: 15px;
+    margin-left: 8px;
+}
+.name a{
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+}   
+.name a:hover{
+    color: hsl(178, 100%, 50%);
+}                                                
