@@ -109,4 +109,7 @@ img.avatar{
 }   
 .name a:hover{
     color: hsl(178, 100%, 50%);
-}                                                
+}      
+footer{
+    text-align: center;
+}                                          
