@@ -47,6 +47,10 @@ a.card:hover img.card{
 .title:hover{
     color: hsl(178, 100%, 50%);
 }
+h1{
+    padding: 0px;
+    margin: 10px 0px 0px 0px;
+}
 .title{
     text-decoration: none;
     font-size: 22px;
